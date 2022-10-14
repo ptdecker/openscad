@@ -47,7 +47,7 @@ difference () {
     depth=10;
     logo_thickness=(thickness/2);
     difference() {
-        translate([0,-topDiameter/2,height/2+(distance*tan(60)/2)+ringGap]) {
+        translate([0,-topDiameter/2,height/2+(distance*tan(60)/2)+ringGap/2]) {
             rotate([0,90,90]) {
                 union() {
                     translate([0,distance,0])
