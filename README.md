@@ -23,6 +23,15 @@ This is an electronics project box with lid that uses inserts for securing
 the lid.  Like all the OpenSCAD designs on this site, the source file is
 parameterized so the box dimensions can be customized as needed.
 
+## ROM Emulator Case
+
+This is a custom case for the [EPROM Emulator](https://mygeekyhobby.com/2020/07/05/eprom-emulator/)
+created by Kris Sekula at [My Geeky Hobby](https://mygeekyhobby.com/about/).
+The dimensions are based on version v1.9 (Jan-2022) of his emulator and is
+designed to not require the PCB to be removed from the 3D printed base plate
+that Kris provides. The lid is still under design. OpenSCAD design files
+are proided.
+
 ## Self-Stacking Tarot Boxes
 
 These are self-stacking boxes designed to hold tarot card decks in a uniform
