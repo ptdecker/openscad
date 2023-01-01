@@ -21,7 +21,7 @@ fshankdepth     =  12.00;
 // Ribbon cable slot dimensions
 slotwidth       =  39.00;
 slotdepth       =   1.50;
-slotposition    =  28.00;
+slotposition    =  27.50;
 
 // USB port dimensions
 portwidth       = 11.00;
