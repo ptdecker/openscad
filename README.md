@@ -30,7 +30,7 @@ created by Kris Sekula at [My Geeky Hobby](https://mygeekyhobby.com/about/).
 The dimensions are based on version v1.9 (Jan-2022) of his emulator and is
 designed to not require the PCB to be removed from the 3D printed base plate
 that Kris provides. OpenSCAD design files
-are proided.
+are proided. This design has also been published on [Printables](https://www.printables.com/model/379508-eprom-emulator-case) and [Thingiverse](https://www.thingiverse.com/thing:5810817).
 
 ## Self-Stacking Tarot Boxes
 
