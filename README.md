@@ -29,7 +29,7 @@ This is a custom case for the [EPROM Emulator](https://mygeekyhobby.com/2020/07/
 created by Kris Sekula at [My Geeky Hobby](https://mygeekyhobby.com/about/).
 The dimensions are based on version v1.9 (Jan-2022) of his emulator and is
 designed to not require the PCB to be removed from the 3D printed base plate
-that Kris provides. The lid is still under design. OpenSCAD design files
+that Kris provides. OpenSCAD design files
 are proided.
 
 ## Self-Stacking Tarot Boxes
