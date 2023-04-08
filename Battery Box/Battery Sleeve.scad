@@ -1,9 +1,9 @@
 fudge = 0.01;
 
-insideWidth = 151;
+insideWidth = 157;
 insideDepth = 155;
 insideHeight = 134;
-thickness = 4;
+thickness = 3.75;
 reliefWidth = 45;
 reliefinsideDepth = 2;
 
