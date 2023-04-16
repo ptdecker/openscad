@@ -1,4 +1,4 @@
-edge = 170;           // length of edge
+edge = 180;           // length of edge
 edgeThickness = 1.5;  // thickness of the edge
 ribWidth = 15;        // width of the rib
 paneThickness = 3.25; // thickness of the pane
