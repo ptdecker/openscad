@@ -1,4 +1,4 @@
-edge = 20;           // length of edge
+edge = 170;           // length of edge
 edgeThickness = 1.5;  // thickness of the edge
 ribWidth = 15;        // width of the rib
 paneThickness = 3.25; // thickness of the pane
@@ -10,21 +10,21 @@ dihedral = 116.56505; // angle of polyhedron dihedral
 interior = 108.0;     // angle of face interior
 fudge = 0.01;         // render artifact elimination fudge factor
 
-difference() {
+//difference() {
     extruded_edge(edge, edgeThickness, ribWidth, paneThickness, channelWidth, channelDepth, wireWidth, wireDepth, dihedral);
-    union() {
-        angle_cut(ribWidth, interior);
-        translate([ribWidth,0,0]) {
-            rotate([0,0,180-dihedral]) {
-                translate([ribWidth, 0, 0]) {
-                    mirror([1,0,0]) {
-                        angle_cut(ribWidth, interior);
-                    }
-                }
-            }
-        }
-    }
-}
+//    union() {
+//        angle_cut(ribWidth, interior);
+//        translate([ribWidth,0,0]) {
+//            rotate([0,0,180-dihedral]) {
+//                translate([ribWidth, 0, 0]) {
+//                    mirror([1,0,0]) {
+//                        angle_cut(ribWidth, interior);
+//                    }
+//                }
+//            }
+//        }
+//    }
+//}
 
 
 module angle_cut(ribWidth, interior) {
