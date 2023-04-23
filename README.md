@@ -52,3 +52,15 @@ for some way to carry 5th Edition Dungeons and Dragon spell and magic item
 cards to my periodic games with friends. It is still a work in progress as
 I want to use detents to hold the lid closed as opposed to the rubber bands
 which I now use.
+
+## Infinity Dodecahedron
+
+Under an art grant from Interfuse, a regional Burning Man event, I 
+constructed infinity mirror dodecahedrons. Contained in this folder are 
+OpenSCAD designs for the edge pieces designed to hold the mirrors and
+provide channels for the LED strips and auxilary support wiring. Also
+included are variations on the edges to support a through-hole at the 
+vertex for power and control wiring to feed into the polygon. Plus a
+variation that splits off one of the sides to facilitate closing the
+final face.
+
