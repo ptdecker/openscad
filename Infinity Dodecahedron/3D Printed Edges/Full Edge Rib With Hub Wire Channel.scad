@@ -1,4 +1,4 @@
-// Regular Dodecahedron Edge Ribs
+// Regular Dodecahedron Edge Ribs With Hub Wire Channel
 
 
 // Cf. https://github.com/openscad/openscad/issues/4603 for a good discussion
@@ -7,7 +7,7 @@
 $fn = 40;
 
 // Variable parameters to cusomize the edge ribs
-paneEdge = (6 * 25.4); // paneEdge (6in x 25.4 mm/in)
+paneEdge = ((7 + 1/16) * 25.4) - 5.5; // paneEdge (6in x 25.4 mm/in plus adjustment)
 edgeThickness = 1.5;   // thickness of the edge
 ribWidth = 15;         // width of the rib
 paneThickness = 3.25;  // thickness of the pane
@@ -18,7 +18,7 @@ wireDepth = 1.6;       // depth of wire channel (1x 22 AWG insulated wire)
 dihedral = 116.56505;  // angle of polyhedron dihedral
 interior = 108.0;      // angle of face interior
 fudge = 0.01;          // render artifact elimination fudge factor
-vertexHole = false;    // include a vertex hole for wire exit
+vertexHole = true;    // include a vertex hole for wire exit
 
 // Calculated parameters
 edge = 0.667 * ribWidth  * tan(interior / 2) + paneEdge;

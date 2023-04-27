@@ -7,7 +7,7 @@
 $fn = 40;
 
 // Variable parameters to cusomize the edge ribs
-paneEdge = (6 * 25.4); // paneEdge (6in x 25.4 mm/in)
+paneEdge = ((7 + 1/16) * 25.4) - 5.5; // paneEdge (6in x 25.4 mm/in + adjustment)
 edgeThickness = 1.5;   // thickness of the edge
 ribWidth = 15;         // width of the rib
 paneThickness = 3.25;  // thickness of the pane
